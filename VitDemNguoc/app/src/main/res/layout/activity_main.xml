@@ -1,0 +1,272 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:scr="http://schemas.android.com/tools"
+    android:background="@drawable/vit0"
+    android:id="@+id/mainActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+
+                android:scaleType="centerCrop"
+                android:id="@+id/rlID"
+
+                >
+
+                <TextView
+                    android:alpha="0.9"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:text=""
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvFire"
+                    android:textSize="25sp"
+
+                    android:layout_below="@+id/tvCauNoi"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+
+                    />
+
+                <TextView
+                    android:alpha="0.9"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textAlignment="viewStart"
+                    android:padding="10dp"
+                    android:text="aavdsvsdvds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCauNoi"
+                    android:textSize="25sp"
+
+                    android:layout_below="@+id/tvMain"
+
+                     />
+
+                <LinearLayout
+
+                    android:id="@+id/ll2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/txTtile"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtTimerDay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="00"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="#fff"
+                            android:fontFamily="sans-serif"
+                            android:textSize="50sp" />
+
+                        <TextView
+                            android:id="@+id/txt_TimerDay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="Ngày"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:paddingLeft="3dp"
+                            android:id="@+id/txtTimerHour"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="00"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="#fff"
+                            android:textSize="50sp" />
+
+                        <TextView
+                            android:id="@+id/txt_TimerHour"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="Giờ"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:paddingLeft="3dp"
+                            android:id="@+id/txtTimerMinute"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="00"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="#fff"
+                            android:textSize="50sp" />
+
+                        <TextView
+                            android:id="@+id/txt_TimerMinute"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="Phút"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:paddingLeft="3dp"
+                            android:id="@+id/txtTimerSecond"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="00"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="#fff"
+                            android:textSize="50sp" />
+
+                        <TextView
+
+                            android:id="@+id/txt_TimerSecond"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="Giây"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:alpha="0.9"
+                    android:padding="10dp"
+                    android:text="Thời gian chuẩn bị trước khi thi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:id="@+id/tvMain"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/background_light"
+                    android:layout_below="@+id/ll2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    />
+
+                <TextView
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:alpha="0.9"
+                    android:text="Đếm ngược ngày thi THPT Quốc Gia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txTtile"
+                    android:layout_marginTop="49dp"
+                    android:textSize="35sp"
+
+                    android:textStyle="normal|bold"
+                    android:textColor="#fff"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:alpha="0.9"
+                android:textColor="#fff"
+
+                android:padding="10dp"
+                android:text=""
+                android:layout_width="match_parent"
+
+                android:textSize="25sp"
+                android:layout_marginTop="12dp"
+
+
+                android:layout_height="120dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:onClick="showSetting"
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_settings"
+        fab:fab_colorNormal="@color/Pink"
+        fab:fab_colorPressed="@color/Pink_bold"
+        fab:fab_colorRipple="@color/Pink_hold"/>
+
+</FrameLayout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "132868082382",
+    "firebase_url": "https://demnguocthpt.firebaseio.com",
+    "project_id": "demnguocthpt",
+    "storage_bucket": "demnguocthpt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132868082382:android:a2c6feab767f722e",
+        "android_client_info": {
+          "package_name": "com.lencostudio.dew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132868082382-mjtog6uhslco4cm1cmt84aj2m1og0kl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lencostudio.dew",
+            "certificate_hash": "bfaddba28ff43279ff9ff68224c2ef3caf03dcac"
+          }
+        },
+        {
+          "client_id": "132868082382-fp94i9gm05rl8plq3ihogad0sgpmbnk2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lencostudio.dew",
+            "certificate_hash": "83bc3c848a3f0999928a5e1dc01c065d46a3d770"
+          }
+        },
+        {
+          "client_id": "132868082382-be5qqg4qed0jmne55fa9gmlgemvvf2dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Qxnj1e99L3UvqZolYhsGJmAp8XbfTt0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132868082382-be5qqg4qed0jmne55fa9gmlgemvvf2dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132868082382:android:fb61c6680e132c00",
+        "android_client_info": {
+          "package_name": "com.lencostudio.nhancomment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132868082382-c6n2a6jrp1t9h82huod0n8jubmio8r61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lencostudio.nhancomment",
+            "certificate_hash": "83bc3c848a3f0999928a5e1dc01c065d46a3d770"
+          }
+        },
+        {
+          "client_id": "132868082382-be5qqg4qed0jmne55fa9gmlgemvvf2dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Qxnj1e99L3UvqZolYhsGJmAp8XbfTt0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132868082382-be5qqg4qed0jmne55fa9gmlgemvvf2dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
